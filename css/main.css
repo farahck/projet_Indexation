@@ -1,0 +1,29 @@
+body{background:#F6F5FD;
+  font-family: 'Signika', sans-serif !important;}
+  .bg-white{
+    background-color: white;
+  }
+  .umploadbtn{
+border: 1px solid #AA9EF2;
+
+}
+.text-v,.text-v:hover{
+font-weight:500;
+color:#7C6FCB ;
+background-color:white;
+border: 1px solid #AA9EF2;
+
+
+}
+.activee{
+color:#7C6FCB;
+font-weight: 600;
+}
+.traces_index{
+border: 1px solid #AA9EF2;
+
+}
+
+
+
+
