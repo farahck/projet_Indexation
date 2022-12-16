@@ -164,7 +164,7 @@ mot_document.poids as poid
 from mot_document join document
 on mot_document.id_document = document.id
 join  mot on
-mot_document.id_mot = mot.id  where mot.mot ='$_POST[mot_cle]' ";
+mot_document.id_mot = mot.id  where mot.mot like'$_POST[mot_cle]' ";
                         $result = mysqli_query($conn, $sqll);
 
 
